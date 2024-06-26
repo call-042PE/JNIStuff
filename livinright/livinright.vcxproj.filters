@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\string">
+      <UniqueIdentifier>{d98ea584-0b12-4367-8049-f5582dea0781}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\json">
+      <UniqueIdentifier>{5698eb4e-2a71-4eda-850e-f35b05d47218}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\string">
+      <UniqueIdentifier>{a815b5f3-67a0-493c-9301-a848e3c5def8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\json">
+      <UniqueIdentifier>{3b061d11-cbee-450f-9462-38910b0993ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\jni">
+      <UniqueIdentifier>{2f418ae0-ae1a-4b75-a418-0b3b9a765341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\jni">
+      <UniqueIdentifier>{94055207-125d-4919-9ded-5c8f5ab170ac}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="string.cpp">
+      <Filter>Fichiers sources\string</Filter>
+    </ClCompile>
+    <ClCompile Include="json.cpp">
+      <Filter>Fichiers sources\json</Filter>
+    </ClCompile>
+    <ClCompile Include="jni.cpp">
+      <Filter>Fichiers sources\jni</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="includes.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="string.h">
+      <Filter>Fichiers d%27en-tête\string</Filter>
+    </ClInclude>
+    <ClInclude Include="json.h">
+      <Filter>Fichiers d%27en-tête\json</Filter>
+    </ClInclude>
+    <ClInclude Include="jni.h">
+      <Filter>Fichiers d%27en-tête\jni</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

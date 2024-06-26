@@ -1,0 +1,3 @@
+﻿  dllmain.cpp
+dllmain.obj : error LNK2001: symbole externe non résolu __imp__JNI_GetCreatedJavaVMs@12
+C:\Users\jacks\source\repos\JniMinecraft\Release\JniMinecraft.dll : fatal error LNK1120: 1 externes non résolus

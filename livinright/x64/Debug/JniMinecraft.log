@@ -1,0 +1,2 @@
+﻿  dllmain.cpp
+C:\Users\jacks\source\repos\JniMinecraft\JniMinecraft\dllmain.cpp(48,1): fatal error C1010: fin de fichier inattendue lors de la recherche d'un en-tête précompilé. N'auriez-vous pas oublié d'ajouter '#include "pch.h"' à votre source ?

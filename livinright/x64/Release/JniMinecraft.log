@@ -1,0 +1,9 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: Le répertoire intermédiaire (x64\Release\) contient des fichiers partagés provenant d'un autre projet (JniMinecraft.vcxproj). Cela peut entraîner un comportement de nettoyage et de regénération incorrect.
+  dllmain.cpp
+LINK : warning LNK4098: conflit entre la bibliothèque par défaut 'LIBCMTD' et les autres bibliothèques ; utilisez /NODEFAULTLIB:library
+  Génération de code en cours
+  0 of 24 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Fin de la génération du code
+  JniMinecraft.vcxproj -> C:\Users\jacks\source\repos\JniMinecraft\x64\Release\livinright.dll

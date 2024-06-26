@@ -1,0 +1,10 @@
+#pragma once
+#include <iostream>
+#include <string>
+#include <thread>
+#include <Windows.h>
+#include <jni.h>
+#include <crtdbg.h>
+#include "string.h"
+#include "json.h"
+#include "jni.h"
